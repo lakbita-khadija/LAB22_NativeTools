@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="24dp"
+            android:elevation="10dp">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NativeTools JNI"
+                android:textColor="@color/titleColor"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Communication entre Java et C++"
+                android:textColor="@color/subtitleColor"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:paddingBottom="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_item"
+                android:padding="16dp"
+                android:layout_marginBottom="14dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Message natif"
+                    android:textStyle="bold"
+                    android:textColor="@color/labelColor"
+                    android:textSize="15sp"
+                    android:paddingBottom="6dp" />
+
+                <TextView
+                    android:id="@+id/tvMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Message"
+                    android:textColor="@color/valueColor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_item"
+                android:padding="16dp"
+                android:layout_marginBottom="14dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calcul de puissance"
+                    android:textStyle="bold"
+                    android:textColor="@color/labelColor"
+                    android:textSize="15sp"
+                    android:paddingBottom="6dp" />
+
+                <TextView
+                    android:id="@+id/tvPower"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Puissance"
+                    android:textColor="@color/valueColor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_item"
+                android:padding="16dp"
+                android:layout_marginBottom="14dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transformation du texte"
+                    android:textStyle="bold"
+                    android:textColor="@color/labelColor"
+                    android:textSize="15sp"
+                    android:paddingBottom="6dp" />
+
+                <TextView
+                    android:id="@+id/tvUpper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Texte"
+                    android:textColor="@color/valueColor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_item"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Moyenne du tableau"
+                    android:textStyle="bold"
+                    android:textColor="@color/labelColor"
+                    android:textSize="15sp"
+                    android:paddingBottom="6dp" />
+
+                <TextView
+                    android:id="@+id/tvAverage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moyenne"
+                    android:textColor="@color/valueColor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
